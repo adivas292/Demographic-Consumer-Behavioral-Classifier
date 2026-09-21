@@ -1,4 +1,4 @@
-# Indian Consumer Credit Behavior Classification Model
+# Demographic Consumer Behavioral Classifier
 
 ## 📊 Project Overview
 This data science project constructs a binary logistic regression classifier using `scikit-learn` to predict consumer demographic profiles based on credit card transaction traits. After proving via exploratory data diagnostics that raw transaction amounts possessed zero linear correlation with consumer features ($R^2$: -0.0001), the pipeline was refactored from a regression baseline into a classification framework to isolate subtle behavioral spending signals across 26,052 real-world retail transactions.
